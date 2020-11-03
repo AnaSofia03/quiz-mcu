@@ -7,4 +7,4 @@ Projeto Quiz - Simple/Intermediate Quiz Project
 I worked with HTML DOM essentially and basic functions.
 
 
->based on [link text itself]: https://youtu.be/riDzcEQbX6k
+>based on https://youtu.be/riDzcEQbX6k
