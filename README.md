@@ -1,4 +1,4 @@
-Projeto Quiz - Simple/Intermediate Quiz Project
+<h3> Projeto Quiz - Simple/Intermediate Quiz Project</h3>
 > I am trying to create some projects to practice and learn more about javascript.
 
 - HTML - Use of Bootsrap
