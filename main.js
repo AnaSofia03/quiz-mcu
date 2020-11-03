@@ -20,7 +20,7 @@ function startGame() {
   startBtn.classList.add('hide');
   quizContainer.classList.remove('hide');
 
-  shuffledQuestions = questions.sort(() => Math.random())
+  shuffledQuestions = questions.sort(() => Math.random()-.5) //perguntas aparecem de forma aleatoria
   questionIndex = 0;
   nextQuestion();
 };
@@ -45,7 +45,8 @@ function selectAnswer(e) {
 };
 
 
-function addStatusClass(element, correct) { //recebe o elemento e se é correct ou nao
+function addStatusClass(element, correct) { //recebe o elemento e se é correct ou nao 
+  //depois uso as classes para alterar o background.
   removeStatusClass(element);
   if (correct) {
     element.classList.add('correct');
@@ -58,23 +59,6 @@ function removeStatusClass(element) {
   element.classList.remove('correct');
   element.classList.remove('wrong');
 }
-
-//function showAnswers(question){
-//  //para cada eleento do array, vou criar um btn
-//  question.answers.forEach(answer => {
-//    const button= document.createElement('button');
-//    button.innerText= answer.innerText;
-//    button.classList.add('btn');
-
-//    if(answer.correct){
-//      button.dataset.correct = answer.correct;
-//    }
-//    button.addEventListener('click', selectAnswer)
-//    answerBtn.appendChild(button);
-//  });
-//  //answerBtn.innerText = question.answers;
-
-//};
 
 
 
