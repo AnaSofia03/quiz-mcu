@@ -1,7 +1,6 @@
 Projeto Quiz - Simple/Intermediate Quiz Project
 > I am trying to create some projects to practice and learn more about javascript.
 
-- This is a Quiz about MCU - because Marvel is Life. :sunglasses:
 - HTML - Use of Bootsrap
 
 - Javascript
