@@ -1,0 +1,105 @@
+body {
+  /*background-color: #B0C4DE;*/
+  background-color: #deb887;
+}
+
+.quiz-container {
+  padding: 20px;
+  max-width:60%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.473);
+  background: rgb(110, 149, 141);
+  background: linear-gradient(
+    90deg,
+    rgba(110, 149, 141, 1) 0%,
+    rgba(148, 103, 103, 1) 100%
+  );
+}
+
+.h5{
+  color: rgb(92, 89, 89);
+}
+
+
+.btn {
+  margin: 25px 65px;
+  width: 100%;
+  margin: 5px;
+  height: 60px;
+  font-size: 18px;
+}
+
+.start-btn,
+.next-btn {
+  color: black;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.473);
+  /*border: none;*/
+}
+.next-btn {
+  width: 45%;
+}
+.start-btn {
+  width: 60%;
+}
+.btn.correct {
+  background-color: rgb(104, 187, 104);
+  color: black;
+  /*border:none;*/
+}
+
+.btn.wrong {
+  background-color: rgb(187, 70, 70);
+  border:none;
+
+}
+
+.hide {
+  display: none;
+}
+
+#question {
+  font-size: 28px;
+  margin-left: 15px;
+}
+
+
+
+ /*Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 220px) {  
+  #question {
+    font-size: 0.9rem;
+  }
+ .btn{
+   font-size: 0.9rem;
+  }
+}
+
+/*// Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) { 
+  #question {
+    font-size: 1.2rem;
+  }
+  .btn{
+    font-size: 1.2rem;
+   }
+}
+
+/*// Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) {
+  #question {
+    font-size: 1.2rem;
+  }
+  .btn{
+    font-size: 1.5rem;
+   }
+ }
+
+/*// Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) { 
+  #question {
+    font-size: 1.2rem;
+  }
+  .btn{
+    font-size: 1.5rem;
+   }
+ }
